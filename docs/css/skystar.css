@@ -72,9 +72,9 @@ div {
   }
 }
 video {
-  position: fixed;
+  /* position: fixed;
   top: 0;
-  left: 0;
+  left: 0; */
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -88,6 +88,7 @@ video {
   font-family: "楷体";
   /* letter-spacing: 0px; */
   font-weight: 600;
+  z-index: 99;
 }
 .textone {
   /* text-align: center; */
@@ -111,4 +112,35 @@ video {
   left: 50%;
   top: 60%;
   transform: translateX(-50%);
+}
+.container {
+}
+.left-top-text {
+  position: absolute;
+  left: 5%;
+  top: 2%;
+  color: #fff;
+  font-size: 20px;
+  font-family: "楷体";
+  z-index: 99;
+}
+.right-bottom {
+  position: absolute;
+  right: 15%;
+  bottom: 12%;
+  color: #fff;
+  font-size: 20px;
+  font-family: "楷体";
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.right-bottom img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin-bottom: 5px;
 }
