@@ -117,7 +117,7 @@ video {
 }
 .left-top-text {
   position: absolute;
-  left: 5%;
+  left: 2%;
   top: 2%;
   color: #fff;
   font-size: 20px;
@@ -126,8 +126,10 @@ video {
 }
 .right-bottom {
   position: absolute;
-  right: 15%;
-  bottom: 12%;
+  right: 2%;
+  bottom: 3%;
+  /* right: 10%;
+  bottom: 10%; */
   color: #fff;
   font-size: 20px;
   font-family: "楷体";
